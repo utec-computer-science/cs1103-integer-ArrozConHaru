@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Harlop/CLionProjects/Teoria/src/Integer.h
+iostream
+-
+
+/mnt/c/Users/Harlop/CLionProjects/Teoria/src/integer.cpp
+Integer.h
+/mnt/c/Users/Harlop/CLionProjects/Teoria/src/Integer.h
+
+/mnt/c/Users/Harlop/CLionProjects/Teoria/src/integer.h
+iostream
+-
+
+/mnt/c/Users/Harlop/CLionProjects/Teoria/src/main.cpp
+integer.h
+/mnt/c/Users/Harlop/CLionProjects/Teoria/src/integer.h
+
